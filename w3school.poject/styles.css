@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    font-size: large;
+    background: gray;
+}
+
+.toplinks li:hover{
+    background-color:blue !important;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+
+}
+
+ .logo{
+    width:50px;
+    height:50px;
+}
+  
+
+.navlinks {
+    display: flex;
+    gap: 15px;
+   
+}
+    
+
+.button{
+     border-radius: 20px;
+     border: none;
+     padding: 10px 20px;
+     min-width: 80px;
+    cursor: pointer;  
+    font-size: large;
+}
+
+.white{
+    background: white;
+    transition: all 0.3s ease-in;
+}
+.white:hover{
+    background: gray;
+    color:white;
+}
+
+.pink{
+    background: pink;
+    transition: all 0.4s ease-in;
+}
+.pink:hover{
+    background: #fe7f9c;
+}
+
+.yellow{
+    background: yellow;
+    transition: all 0.4s ease-in;
+}
+.yellow:hover{
+    background: #ffaa1d;
+}
+
+.green{
+    background: green;
+    color: #fff;
+    transition: all 0.4s ease-in;
+}
+.green:hover{
+    background: #028a0f;
+}
+
+
+a {
+    color:;
+    text-decoration:none ;
+    color: white;
+}
+
+li{
+    list-style: none;
+
+}
+
+li:hover {
+    background: black !important;
+}
+
+
+.yellow:hover{
+    background:yellow ;
+}
+
+select{
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: large;
+    cursor: pointer;
+    color: white;
+}
+
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+
+
+.navkeys {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 0;
+    color:white;
+}
+
+.navkeys li a {
+    color: white;
+}
+
+
+.request{
+    background-color: blueviolet;
+}
+
+
+/*.topnavkeys :hover{
+    background: green;
+}*/
+
+
+
+/*a {
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: large;
+    cursor: pointer;
+}
+*/
